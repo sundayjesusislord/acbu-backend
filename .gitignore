@@ -9,8 +9,6 @@ build/
 *.tsbuildinfo
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 
 # Logs
@@ -25,7 +23,6 @@ coverage/
 .nyc_output/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -38,3 +35,4 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
+config.bat
