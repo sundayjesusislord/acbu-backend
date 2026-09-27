@@ -9,9 +9,6 @@ build/
 *.tsbuildinfo
 
 # Environment variables
-.env
-.env.production
-.env.local
 .env.*.local
 
 # Logs
@@ -26,7 +23,6 @@ coverage/
 .nyc_output/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -48,3 +44,4 @@ heapdumps/
 # Sensitive architecture and security docs
 SECURITY_FIX_SUMMARY.md
 ISSUES.md
+config.bat
